@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(to right, #E4ABC7, #6b44a9);
+    color: #000000;
+    font-family: sans-serif;
+    padding: 20px;
+    display: flex; 
+    gap: 20px;
+    flex-wrap: wrap;
+ 
+    
+}
+
+/* Artículos */
+articlelargo {
+    background-color: rgba(248, 248, 248, 0.66);
+    border-radius: 20px;
+    width: 300px;
+    min-width: 300px;
+    padding: 1px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box; 
+    display: inline;
+    
+}
+articlecorto {
+    background-color: rgba(255, 255, 255, 0.66);
+    border-radius: 20px;
+    width: 300px;
+    min-width: 300px;
+    padding: 1px;
+    margin-bottom: 90px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box; 
+    display: inline;
+    
+}
+
+/* Fecha */
+time {
+    font-style: italic;
+    display: block;
+    font-size: 10px;
+    color: #000000;
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+}
+
+/* Título */
+h1 {
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+    padding-right: 5px;
+    line-height: 1.2;
+    word-wrap: break-word;
+}
+
+/* Imágenes */
+img {
+    width: 100%;
+    display:block;
+    margin-bottom: 20px;
+}
+
+/* Efecto de carga para imágenes (opcional) */
+.fadein {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}

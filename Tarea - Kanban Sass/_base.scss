@@ -1,0 +1,18 @@
+@import 'variables';
+
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('https://ep01.epimg.net/verne/imagenes/2020/03/02/articulo/1583169237_876817_1583173125_noticia_normal.jpg');
+    background-size: 110%;
+    background-repeat: no-repeat;
+   display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding-top: 20px;
+    padding-left: 30px;
+}

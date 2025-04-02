@@ -10,7 +10,6 @@ body {
     
 }
 
-/* Artículos */
 articlelargo {
     background-color: rgba(248, 248, 248, 0.66);
     border-radius: 20px;
@@ -40,7 +39,6 @@ articlecorto {
     
 }
 
-/* Fecha */
 time {
     font-style: italic;
     display: block;
@@ -50,7 +48,6 @@ time {
     letter-spacing: 0.5px;
 }
 
-/* Título */
 h1 {
     font-size: 28px;
     font-weight: 500;
@@ -60,14 +57,12 @@ h1 {
     word-wrap: break-word;
 }
 
-/* Imágenes */
 img {
     width: 100%;
     display:block;
     margin-bottom: 20px;
 }
 
-/* Efecto de carga para imágenes (opcional) */
 .fadein {
     opacity: 0;
     animation: fadeIn 0.5s ease-in forwards;
